@@ -1,0 +1,320 @@
+
+.navbar {
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+ 
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: darkblue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+
+
+.p1kh{
+  font-family: "Khmer OS";
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: left;
+}
+
+.p1en{
+  /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: left;
+
+}
+
+.headingcenter {
+  text-align: center;
+}
+
+/*This is for images*/
+.img {
+  margin: 8px;
+}
+div.gallery {
+  border: 4px solid #ccc;
+  border-radius: 15px;
+}
+
+div.gallery:hover {
+  border: 4px solid #777;
+  border-radius: 15px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.middlemarquee{
+  height: 70px;
+  font-size: 25px;
+  color: white;
+  background-color: darkblue;
+  margin-top: 20px;
+}
+.middlemarquee img {
+  height: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+ @media only screen and (max-width: 1270px) {
+.navbar {
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 14px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 12px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.p1kh {
+  font-size: 16px;
+  font-weight: 400px;
+}
+.p1en {
+  font-size: 17px;
+  font-weight: 400px;
+
+}
+/*This is for images*/
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+.middlemarquee{
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  background-color: darkblue;
+}
+.middlemarquee img {
+  height: 43px;
+}
+
+
+}
+@media only screen and (max-width: 520px) {
+.navbar {
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 8px;
+  color: white;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+  font-size: 8px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 8px 8px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.p1kh{
+  font-family: "Khmer OS";
+  font-size: 14px;
+  font-weight: 200px;
+}
+.p1en{
+  font-size: 16px;
+  font-weight: 200px;
+}
+.headingcenter {
+  text-align: center;
+  font-size: 15px;
+}
+
+/*This is for images*/
+.responsive {
+    width: 100%;
+  }
+
+.middlemarquee{
+  height: 30px;
+  font-size: 14px;
+  color: white;
+  background-color: darkblue;
+}
+.middlemarquee img {
+  height: 25px;
+}
+
+.imgfooter {
+  width: 30px;
+}
+}
+
+
